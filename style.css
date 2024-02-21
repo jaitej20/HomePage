@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#parent{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+#p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#p1 h3{
+    font-size: 18px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+#p1 i{
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+#parent h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#p3 button{
+    padding: 10px 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#log{
+    background-color: white;
+}
+#sign{
+    background-color: orangered;
+    color: white;
+}
+#child{
+    width: 100%;
+    font-size:90px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#foot{
+    font-size: 16px;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+#left-foot{
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+#left-foot>i{
+    padding: 5px 10px;
+}
+#left-foot>h3{
+    font-size: 13px;
+}
